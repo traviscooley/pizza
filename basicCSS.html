@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SportyPizza</title>
+        <link href="css/basic.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <div>
+            <h1 id="top">
+                Welcome to SportyPizza
+            </h1>
+        </div>
+        <img src="images/basketballpizza.jpg" alt="Time to hoop" title="Balling" width="250" height="250" class="ima">
+        <img src="images/footballpizza.jpg" alt="1st Down" title="Touchdown" width="250" height="250" class="imgs">
+        <img src="images/soccerpizza.png" alt="Goal" title="Gooooooaaaaalllll" width="250" height="250">
+        <hr />
+        <figure>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/nhWUOSJtK0Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <figcaption>This is the competition</figcaption>
+        </figure>
+        <hr />
+        <form action="http://www.example.com/login/" methed="post">
+            <label for="username">Username:</label>
+            <input type="text" name="username" required="required">
+            <br>
+            <label for="password" >Password :</label>
+            <input type="password" name="password" required="required">
+            <input type="submit" value="Submit" />
+            <hr />
+        </form>
+        <form action="http://www.example.com/profile.php">
+            <h3>Order Pizza</h3>
+            <p>Would you like to delivery or carryout?
+                <br>
+                <input type="checkbox" name="del" value="delivery" checked="checked" /> Delivery
+                <input type="checkbox" name="car" value="carryout" /> Carryout
+            </p>
+            <table>
+            <tr>
+                <th>HM:</th>
+                <th>Kids -</th>
+                <th>Small -</th> 
+                <th>Med -</th>
+                <th>Large -</th>
+                <th>Extra Large</th>
+            </tr>
+            <tr>
+                <td>1:</td>
+                <td>|$4.99 |</td>
+                <td>$6.99 |</td> 
+                <td>$9.20 |</td>
+                <td>$12.40 |</td>
+                <td>$15.60 |</td>
+            </tr>
+            <tr>
+                <td>2:</td>
+                <td>|$9.99 |</td> 
+                <td>$12.99 |</td>
+                <td>$18.40 |</td>
+                <td>$24.80 |</td>
+                <td>$31.20 |</td>
+            </tr>
+            </table>
+            <p>How many do you want?
+                <select name="format">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                </select>
+            </p>
+            <p>What size pizza do you want?
+                <select name="format">
+                    <option value="kids">Kids</option>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                    <option value="extra large">Extra Large</option>
+                </select>
+            </p>
+            <p>What do you want on your pizza?</p>
+            <select name="toppings" size="4" multiple="multiple">
+                <option value="pepperoni" selected="selected">Pepperoni</option>
+                <option value="beef">Beef</option>
+                <option value="sausage">Sausage</option>
+                <option value="ham">Ham</option>
+                <option value="chicken">Chicken</option>
+                <option value="tomatoes">Tomatoes</option>
+                <option value="onions">Onions</option>
+                <option value="red peppers">Red Peppers</option>
+                <option value="green peppers">Green Pepper</option>
+                <option value="spinach">Spinach</option>
+                <option value="pinapple">Pinapple</option>
+                <option value="mushroom">Mushroom</option>
+                <option value="olive">Olive</option>
+                <option value="feta cheese">Feta Cheese</option>
+                <option value="bacon">Bacon</option>
+            </select>
+            <p>Rate Us</p>
+            <textarea name="comments" col="20" rows="4" placeholder="Enter here"></textarea>
+            <br>
+            <input type="Submit" value="Submit" />
+        </form>
+        <hr />
+        <a href="#top">To The Top</a>
+        </p>
+    </body>
+</html>

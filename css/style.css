@@ -1,6 +1,12 @@
 body {
     background-color: rgb(243, 243, 243);
 }
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
 .container-size {
     padding-left: 0;
 }

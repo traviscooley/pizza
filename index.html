@@ -11,7 +11,7 @@
         <!--Font Awesome End-->
         <!--Google Fonts-->
         <link rel="stylesheet" href="css/bootstrap.css">
-        <link href="css/basic.css" type="text/css" rel="stylesheet">
+        <link href="css/style.css" type="text/css" rel="stylesheet">
     </head>
     
     <body>
@@ -56,80 +56,86 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-sm-8">
-                    <form action="">
-                        <h2>Order Pizza</h2>
-                        <p>Would you like to delivery or carryout?
-                            <br>
-                            <input type="checkbox" name="del" value="delivery" checked="checked" /> Delivery
-                            <input type="checkbox" name="car" value="carryout" /> Carryout
-                        </p>
-                        <table>
-                        <tr>
-                            <th>HM:</th>
-                            <th>Kids -</th>
-                            <th>Small -</th> 
-                            <th>Med -</th>
-                            <th>Large -</th>
-                            <th>Extra Large</th>
-                        </tr>
-                        <tr>
-                            <td>1:</td>
-                            <td>|$4.99 |</td>
-                            <td>$6.99 |</td> 
-                            <td>$9.20 |</td>
-                            <td>$12.40 |</td>
-                            <td>$15.60 |</td>
-                        </tr>
-                        <tr>
-                            <td>2:</td>
-                            <td>|$9.99 |</td> 
-                            <td>$12.99 |</td>
-                            <td>$18.40 |</td>
-                            <td>$24.80 |</td>
-                            <td>$31.20 |</td>
-                        </tr>
-                        </table>
-                        <p>How many do you want?
-                            <select name="format">
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                            </select>
-                        </p>
-                        <p>What size pizza do you want?
-                            <select name="format">
-                                <option value="kids">Kids</option>
-                                <option value="small">Small</option>
-                                <option value="medium">Medium</option>
-                                <option value="large">Large</option>
-                                <option value="extra large">Extra Large</option>
-                            </select>
-                        </p>
-                        <p>What do you want on your pizza?</p>
-                        <select name="toppings" size="4" multiple="multiple">
-                            <option value="pepperoni" selected="selected">Pepperoni</option>
-                            <option value="beef">Beef</option>
-                            <option value="sausage">Sausage</option>
-                            <option value="ham">Ham</option>
-                            <option value="chicken">Chicken</option>
-                            <option value="tomatoes">Tomatoes</option>
-                            <option value="onions">Onions</option>
-                            <option value="red peppers">Red Peppers</option>
-                            <option value="green peppers">Green Pepper</option>
-                            <option value="spinach">Spinach</option>
-                            <option value="pinapple">Pinapple</option>
-                            <option value="mushroom">Mushroom</option>
-                            <option value="olive">Olive</option>
-                            <option value="feta cheese">Feta Cheese</option>
-                            <option value="bacon">Bacon</option>
-                        </select>
-                    </form>
-                </div>
-                <div class="col-sm-offset-1 col-sm-3">
-                    <h2>Rate Us</h2>
-                    <h3>Facebook</h3>
-                    <p><a>Like!</a></p>
+                <div class="container-background col-sm-8">
+                    <h2>Order Pizza</h2>
                     <div class="row">
+                        <div class="info-background col-sm-12">
+                            <form action="">
+                                <p>Would you like to delivery or carryout?
+                                    <br>
+                                    <input type="checkbox" name="del" value="delivery" checked="checked" /> Delivery
+                                    <input type="checkbox" name="car" value="carryout" /> Carryout
+                                </p>
+                                <table>
+                                <tr>
+                                    <th>HM:</th>
+                                    <th>Kids -</th>
+                                    <th>Small -</th> 
+                                    <th>Med -</th>
+                                    <th>Large -</th>
+                                    <th>Extra Large</th>
+                                </tr>
+                                <tr>
+                                    <td>1:</td>
+                                    <td>|$4.99 |</td>
+                                    <td>$6.99 |</td> 
+                                    <td>$9.20 |</td>
+                                    <td>$12.40 |</td>
+                                    <td>$15.60 |</td>
+                                </tr>
+                                <tr>
+                                    <td>2:</td>
+                                    <td>|$9.99 |</td> 
+                                    <td>$12.99 |</td>
+                                    <td>$18.40 |</td>
+                                    <td>$24.80 |</td>
+                                    <td>$31.20 |</td>
+                                </tr>
+                                </table>
+                                <p>How many do you want?
+                                    <select name="format">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                    </select>
+                                </p>
+                                <p>What size pizza do you want?
+                                    <select name="format">
+                                        <option value="kids">Kids</option>
+                                        <option value="small">Small</option>
+                                        <option value="medium">Medium</option>
+                                        <option value="large">Large</option>
+                                        <option value="extra large">Extra Large</option>
+                                    </select>
+                                </p>
+                                <p>What do you want on your pizza?</p>
+                                <select name="toppings" size="4" multiple="multiple">
+                                    <option value="pepperoni" selected="selected">Pepperoni</option>
+                                    <option value="beef">Beef</option>
+                                    <option value="sausage">Sausage</option>
+                                    <option value="ham">Ham</option>
+                                    <option value="chicken">Chicken</option>
+                                    <option value="tomatoes">Tomatoes</option>
+                                    <option value="onions">Onions</option>
+                                    <option value="red peppers">Red Peppers</option>
+                                    <option value="green peppers">Green Pepper</option>
+                                    <option value="spinach">Spinach</option>
+                                    <option value="pinapple">Pinapple</option>
+                                    <option value="mushroom">Mushroom</option>
+                                    <option value="olive">Olive</option>
+                                    <option value="feta cheese">Feta Cheese</option>
+                                    <option value="bacon">Bacon</option>
+                                </select>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-background col-sm-offset-1 col-sm-3">
+                    <h2>Rate Us</h2>
+                    <div class="info-background row">
+                        <div class="col-sm-12">
+                            <h3>Facebook</h3>
+                            <p><a>Like!</a></p>
+                        </div>
                         <div class="col-xs-4 col-sm-6">
                             <img src="images/herbert.jpg" class="img-responsive" alt="">
                             <p>Herbert</p>
@@ -154,10 +160,20 @@
                             <img src="images/javi.png" class="img-responsive" alt="">
                             <p>Javi</p>
                         </div>
+                        <div class="col-sm-12">
+                            <h3>Comment on Twitter</h3>
+                            <p><a href="">Follow</a></p>
+                        </div>
+                        <div class="col-sm-6">
+
+                        </div>
+                        <div class="col-sm-6">
+
+                        </div>
                     </div>
-                    <h3>Comment on Twitter</h3>
                 </div>
             </div>
+        </div>
 
     </body>
 </html>

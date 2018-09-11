@@ -1,15 +1,22 @@
 body {
     background-color: rgb(243, 243, 243);
 }
+.container-size {
+    padding-left: 0;
+}
 .container-background {
-    background: #ff8d6b;
-    background: linear-gradient(to right, #ff8d6b 0%,#ff592b 30%,#ff592b 70%,#ff8d6b 100%);
-    border: 1px solid black;
+    background: #ff592b;
+    background: linear-gradient(to right, #ff592b 0%,#ff815e 40%,#ff815e 60%,#ff592b 100%);
+    border: 1px solid #833621;
+    border-right: 6px solid #833621;
     border-radius: 20px;
     padding-bottom: 20px;
 }
 .info-background {
     background-color: #fff;
-    border: 1px solid black;
+    border-top: 1px solid #833621;
+    border-bottom: 1px solid #833621;
+    border-right: 1px solid #833621;
+    border-left: none;
     border-radius: 20px;
 }

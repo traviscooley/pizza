@@ -1,5 +1,7 @@
+/*Body*/
+
 body {
-    background-color: rgb(243, 243, 243);
+    background-image: url(../images/pizzabackground.jpg);
 }
 h1 {
     text-align: center;
@@ -7,8 +9,8 @@ h1 {
 h2 {
     text-align: center;
 }
-.container-size {
-    padding-left: 0;
+h3 {
+    text-align: center;
 }
 .container-background {
     background: #ff592b;
@@ -25,4 +27,26 @@ h2 {
     border-right: 1px solid #833621;
     border-left: none;
     border-radius: 20px;
+}
+ul {
+    list-style: none;
+}
+/**/
+
+/*Logo*/
+.logo img {
+    margin-left: 265px;
+}
+/**/
+
+.main-nav ul {
+    text-align: center;
+
+}
+.main-nav li {
+    display: inline;
+}
+
+.sign-up-nav {
+    background: linear-gradient(to right, rgba(255,89,43,1) 0%,rgba(255,129,94,0.8) 40%,rgba(255,129,94,0.75) 50%,rgba(255,129,94,0.8) 60%,rgba(255,89,43,1) 100%);
 }

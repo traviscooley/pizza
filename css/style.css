@@ -12,13 +12,17 @@ h2 {
 h3 {
     text-align: center;
 }
+.container-size {
+    padding-bottom: 20px;
+}
 .container-background {
-    background: #ff592b;
-    background: linear-gradient(to right, #ff592b 0%,#ff815e 40%,#ff815e 60%,#ff592b 100%);
+    background: #ff805d;
     border: 1px solid #833621;
     border-right: 6px solid #833621;
+    border-left: 6px solid #833621;
     border-radius: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 .info-background {
     background-color: #fff;
@@ -28,25 +32,91 @@ h3 {
     border-left: none;
     border-radius: 20px;
 }
+.info-size {
+    padding-bottom: 565px;
+}
 ul {
     list-style: none;
 }
 /**/
 
 /*Logo*/
+.logo h1::before {
+    position: relative;
+    content: '';
+    display: block;
+    margin-left: 250px;
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(ellipse at center, rgba(167,194,194,0.8) 0%,rgba(167,194,194,1) 50%,rgba(167,194,194,0.8) 100%);
+    border-radius: 70% 30% 60% 40%;
+}
 .logo img {
-    margin-left: 265px;
+    position: absolute;
+    margin-left: 250px;
+    top: 50px;
 }
 /**/
 
 .main-nav ul {
     text-align: center;
-
 }
 .main-nav li {
-    display: inline;
+    display: inline-block;
+}
+.main-nav a {
+    padding: 10px 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+}
+.main-nav a:hover {
+    margin: 0;
+    background-color: rgb(167, 194, 194);
+    color: white;
+    border: none;
+    border-left: 3px solid #000;
+    border-right: 3px solid #000;
+    border-radius: 10px;
+}
+.login-nav {
+    background: radial-gradient(ellipse at center, rgba(167,194,194,0.8) 0%,rgba(167,194,194,1) 50%,rgba(167,194,194,0.8) 100%);
+    border-radius: 50%;
+    margin-top: 70px;
+}
+.login-nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 35px;
+}
+.login-nav a:hover {
+    color: #ff805d;
+}
+.sign-up-nav {
+    
 }
 
-.sign-up-nav {
-    background: linear-gradient(to right, rgba(255,89,43,1) 0%,rgba(255,129,94,0.8) 40%,rgba(255,129,94,0.75) 50%,rgba(255,129,94,0.8) 60%,rgba(255,89,43,1) 100%);
+
+
+
+.social-bar {
+    background: radial-gradient(ellipse at center, rgba(167,194,194,0.8) 0%,rgba(167,194,194,1) 50%,rgba(167,194,194,0.8) 100%);
+    border-radius: 30% 60% 20% 40%;
+    margin-top: 70px;
+}
+.social-bar ul {
+    padding: 20px;
+}
+.social-bar li {
+    display: inline-block;
+    margin-right: 5px;
+}
+.social-bar a {
+    text-decoration: none;
+    color: black;
+    font-size: 42px;
+}
+.social-bar a:hover {
+    color: #ff805d;
 }

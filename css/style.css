@@ -15,6 +15,9 @@ h3 {
 .container-size {
     padding-bottom: 20px;
 }
+.container-size-logo {
+    padding-bottom: 325px;
+}
 .container-background {
     background: #ff805d;
     border: 1px solid #833621;
@@ -70,16 +73,14 @@ ul {
     text-decoration: none;
     color: black;
     font-size: 32px;
+    transition: .6s;
 }
 .main-nav a:hover {
-    margin: 0;
-    background-color: rgb(167, 194, 194);
-    color: white;
-    border: none;
-    border-left: 3px solid #000;
-    border-right: 3px solid #000;
-    border-radius: 10px;
+    color: rgba(167,194,194);
 }
+
+
+
 .login-nav {
     background: radial-gradient(ellipse at center, rgba(167,194,194,0.8) 0%,rgba(167,194,194,1) 50%,rgba(167,194,194,0.8) 100%);
     border-radius: 50%;
@@ -89,12 +90,24 @@ ul {
     text-decoration: none;
     color: #000;
     font-size: 35px;
+    transition: .6s;
 }
 .login-nav a:hover {
     color: #ff805d;
 }
+
+
+
 .sign-up-nav {
-    
+    background-image: url(../images/pizza2.png);
+}
+.sign-up-nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 35px;
+}
+.sign-up-nav a:hover {
+    color: #ff805d;
 }
 
 

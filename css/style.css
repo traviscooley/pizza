@@ -51,7 +51,7 @@ ul {
     margin-left: 250px;
     width: 600px;
     height: 600px;
-    background: radial-gradient(ellipse at center, rgba(167,194,194,0.8) 0%,rgba(167,194,194,1) 50%,rgba(167,194,194,0.8) 100%);
+    background-color: rgb(167,194,194);
     border-radius: 70% 30% 60% 40%;
 }
 .logo img {
@@ -62,7 +62,7 @@ ul {
 /**/
 
 .main-nav ul {
-    text-align: center;
+    text-align: left;
 }
 .main-nav li {
     display: inline-block;
@@ -79,42 +79,31 @@ ul {
     color: rgba(167,194,194);
 }
 
+.sign-in-bar {
+    text-align: right;
+}
+.sign-in-bar p {
+    margin-top: 8px;
+    font-size: 21px;
+}
 
-
-.login-nav {
-    background: radial-gradient(ellipse at center, rgba(167,194,194,0.8) 0%,rgba(167,194,194,1) 50%,rgba(167,194,194,0.8) 100%);
+.sign-in-nav {
+    background-color: rgb(167,194,194);
     border-radius: 50%;
     margin-top: 70px;
 }
-.login-nav a {
+.sign-in-nav a {
     text-decoration: none;
     color: #000;
     font-size: 35px;
     transition: .6s;
 }
-.login-nav a:hover {
+.sign-in-nav a:hover {
     color: #ff805d;
 }
-
-
-
-.sign-up-nav {
-    background-image: url(../images/pizza2.png);
-}
-.sign-up-nav a {
-    text-decoration: none;
-    color: #000;
-    font-size: 35px;
-}
-.sign-up-nav a:hover {
-    color: #ff805d;
-}
-
-
-
 
 .social-bar {
-    background: radial-gradient(ellipse at center, rgba(167,194,194,0.8) 0%,rgba(167,194,194,1) 50%,rgba(167,194,194,0.8) 100%);
+    background-color: rgb(167,194,194);
     border-radius: 30% 60% 20% 40%;
     margin-top: 70px;
 }

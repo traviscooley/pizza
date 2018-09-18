@@ -36,7 +36,10 @@ h3 {
     border-radius: 20px;
 }
 .info-size {
-    padding-bottom: 565px;
+    padding-bottom: 375px;
+}
+.sign-in-containers {
+    margin-bottom: 40px;
 }
 ul {
     list-style: none;

@@ -51,37 +51,74 @@ ul {
     position: relative;
     content: '';
     display: block;
-    margin-left: 250px;
-    width: 600px;
-    height: 600px;
+    margin-left: 10px;
+    width: 300px;
+    height: 300px;
     background-color: rgb(167,194,194);
     border-radius: 70% 30% 60% 40%;
 }
 .logo img {
     position: absolute;
-    margin-left: 250px;
+    margin-left: 20px;
     top: 50px;
+}
+
+@media (min-width: 1200px) {
+    
+    .logo h1::before {
+        position: relative;
+        content: '';
+        display: block;
+        margin-left: 250px;
+        width: 600px;
+        height: 600px;
+        background-color: rgb(167,194,194);
+        border-radius: 70% 30% 60% 40%;
+    }
+    .logo img {
+        position: absolute;
+        margin-left: 250px;
+        top: 50px;
+    }
 }
 /**/
 
+/*Main Nav Bar*/
 .main-nav ul {
     text-align: left;
-}
-.main-nav li {
-    display: inline-block;
+    padding: 0;
 }
 .main-nav a {
     padding: 10px 5px;
     margin-right: 5px;
     text-decoration: none;
     color: black;
-    font-size: 32px;
+    font-size: 28px;
     transition: .6s;
 }
 .main-nav a:hover {
     color: rgba(167,194,194);
 }
 
+@media (min-width: 1200px) {
+    .main-nav ul {
+        text-align: left;
+    }
+    .main-nav li {
+        display: inline-block;
+    }
+    .main-nav a {
+        padding: 10px 5px;
+        margin-right: 5px;
+        text-decoration: none;
+        color: black;
+        font-size: 32px;
+        transition: .6s;
+    }
+}
+/**/
+
+/*Sign-in Bar & Nav*/
 .sign-in-bar {
     text-align: right;
 }
@@ -89,7 +126,6 @@ ul {
     margin-top: 8px;
     font-size: 21px;
 }
-
 .sign-in-nav {
     background-color: rgb(167,194,194);
     border-radius: 50%;
@@ -104,7 +140,9 @@ ul {
 .sign-in-nav a:hover {
     color: #ff805d;
 }
+/**/
 
+/*Social Bar*/
 .social-bar {
     background-color: rgb(167,194,194);
     border-radius: 30% 60% 20% 40%;
@@ -125,3 +163,4 @@ ul {
 .social-bar a:hover {
     color: #ff805d;
 }
+/**/
